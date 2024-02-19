@@ -37,7 +37,7 @@ const TextInputComponent=({onChangeHandler, name, styles})=>{
         // 화면을 넘기는 값이 입력되면 아래줄로 내려간다.
         multiline={true}
 
-        // 텍스트의 입력 값이 변경될 대 호출되는 콜백메서드로 
+        // 텍스트의 입력 값이 변경될 때 호출되는 콜백메서드로 
         // 변경된 텍스트는 콜백 핸들러에 단일 문자열로 전달된다
         onChangeText={onChangeHandler}
         /*

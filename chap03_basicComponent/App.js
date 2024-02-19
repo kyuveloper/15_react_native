@@ -19,8 +19,11 @@ export default function App() {
     <ScrollViewComponent>
       <View style={styles.container}>
           <ViewComponent isTrue={true} styles={styles.viewComponent}/>
+
           <TextInputComponent onChangeHandler={onChangeHandler} name={name} styles={styles.textInputComponent}/>
+
           <TextComponent name={name} styles={styles.textComponent}/>
+          
           <ImageComponent isTrue={true} styles={styles.imageComponent}/>
           <ImageComponent isTrue={false} styles={styles.imageComponent}/>
       </View>
